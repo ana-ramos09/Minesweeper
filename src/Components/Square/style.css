@@ -1,0 +1,28 @@
+.square {
+    width: 35px;
+    height: 35px;
+    border: 1.7px outset grey;
+    background-color: rgb(51, 50, 50);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.square:hover {
+    background-color: rgb(63, 62, 62);
+    border: 1.7px inset grey;
+}
+
+.square--flagged {
+    background-image: url('../../images/originals/flag.png');
+    background-size: cover;
+}
+
+.square--question {
+    background-image: url('../../images/originals/question-mark.png');
+    background-size: cover;
+}
+
+.square--bomb {
+    background-image: url('../../images/originals/bomb.png');
+    background-size: cover;
+}

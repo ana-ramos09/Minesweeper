@@ -1,0 +1,9 @@
+.game__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 2.7px inset  rgb(114, 114, 224);
+    height: 51px;
+    width: 100%;
+}
